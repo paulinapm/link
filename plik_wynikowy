@@ -1,0 +1,21 @@
+====================ZAPYTANIE====================
+  idzapytania    imie nazwisko      regon dataurodzenia  pojazd datarozpoczeniapolisy
+0   ABC123456     Jan     Teść               1999-12-31      57            2023-05-05
+1   WET123456  Janina  Testowa  213231456          None      58            2023-06-05
+====================POJAZD====================
+  marka           model  rocznik
+0   Kia  CEE'D Sportage     2018
+1  Fiat           Bravo     2010
+====================ODPOWIEDZ====================
+   skladka  pokrycia  czyklientszkodowy
+0  1234.56       NaN                  1
+1  2222.00       NaN                  0
+====================POKRYCIE====================
+  nazwapokrycia  sumaubezpieczenia  zakres
+0            OC           50000000      59
+1            AC              15000      60
+====================ZAKRES====================
+   amortyzacja  dostepnewarunkowo
+0            0                  0
+1            1                  1
+

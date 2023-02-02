@@ -1,0 +1,50 @@
+{"zapytanie": [{
+    "idzapytania": "ABC123456",
+    "imie": "Jan",
+    "nazwisko": "Teść",
+    "regon": null,
+    "dataurodzenia": "1999-12-31",
+    "pojazd": {
+        "marka": "Kia",
+        "model": "CEE'D Sportage",
+        "rocznik": 2018},
+    "datarozpoczeciapolisy": "2023-05-05"
+},
+{
+    "idzapytania": "WET123456",
+    "imie": "Janina",
+    "nazwisko": "Testowa",
+    "regon": "213231456",
+    "dataurodzenia": null,
+    "pojazd": {
+        "marka": "Fiat",
+        "model": "Bravo",
+        "rocznik": 2010},
+    "datarozpoczeciapolisy": "2023-06-05"
+}],
+
+"odpowiedz": [{
+    "skladka": 1234.56,
+    "pokrycia": [],
+    "czyklientszkodowy": true
+},
+{
+    "skladka": 2222.00,
+    "pokrycia": [{
+        "nazwapokrycia": "OC",
+        "sumaubezpieczenia": 50000000,
+        "zakres": {
+            "amortyzacja": false,
+            "dostepnewarunkowo": false
+        }
+    },
+    {
+        "nazwapokrycia": "AC",
+        "sumaubezpieczenia": 15000,
+        "zakres": {
+            "amortyzacja": true,
+            "dostepnewarunkowo": true
+        }
+    }],
+    "czyklientszkodowy": false
+}]}
